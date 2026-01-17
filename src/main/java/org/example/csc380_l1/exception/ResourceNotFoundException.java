@@ -1,4 +1,10 @@
 package org.example.csc380_l1.exception;
 
-public class ResourceNotFoundException {
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
 }
+
+
