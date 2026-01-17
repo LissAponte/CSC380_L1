@@ -27,4 +27,5 @@ public interface GameRepository extends JpaRepository<Game, Long> {
             @Param("condition") GameCondition condition,
             Pageable pageable
     );
+
 }
