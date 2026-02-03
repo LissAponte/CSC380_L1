@@ -132,7 +132,7 @@ public class GameService {
                 .map(game -> toResponseDto(game, currentUserId))
                 .collect(Collectors.toList());
 
-        PaginationDto pagination = PaginationDto.builder()
+        GameCollectionDto.PaginationDto pagination = GameCollectionDto.PaginationDto.builder()
                 .page(gamePage.getNumber() + 1)
                 .limit(gamePage.getSize())
                 .totalItems(gamePage.getTotalElements())

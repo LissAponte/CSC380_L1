@@ -2,7 +2,7 @@ package org.example.csc380_l1.controller;
 
 import org.example.csc380_l1.dto.*;
 import org.example.csc380_l1.service.*;
-import jakarta.validation.Valid;
+import jakarta.validation.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

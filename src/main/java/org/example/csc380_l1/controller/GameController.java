@@ -1,7 +1,7 @@
 package org.example.csc380_l1.controller;
 
 import org.example.csc380_l1.dto.*;
-import com.retrogame.model.GameCondition;
+import org.example.csc380_l1.model.GameCondition;
 import org.example.csc380_l1.security.UserPrincipal;
 import org.example.csc380_l1.service.GameService;
 import jakarta.validation.Valid;
